@@ -1,0 +1,98 @@
+* {
+  font-family: 'Montserrat', 'Nunito Sans';
+}
+
+
+
+
+#home{
+  
+}
+
+
+#about {
+
+}
+
+#work {
+    
+}
+
+#services {
+    
+}
+
+#testimonials {
+
+}
+
+#contact {
+    
+}
+
+
+
+
+
+.image{
+    background-image: url(images/aidan-hancock-8RU4OuA6Yug-unsplash.png);
+    width: 2000px;
+    height: 860px;
+    background-repeat: no-repeat;
+}
+
+.ion {
+    width: 10px;
+    height: 20px;
+}
+
+
+.item {
+
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+  }
+
+  .container:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+    
+  }
