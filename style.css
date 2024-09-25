@@ -4,6 +4,23 @@
 
 
 
+label {
+  width:200px;
+  display: inline-block;
+}
+
+
+.input1 {
+  width: 937px;
+  padding-left: 30%;
+}
+
+.input2 {
+ height: 200px;
+}
+
+
+
 
 #home{
   
@@ -81,7 +98,7 @@
     opacity: 0.5;
   }
   
-  .icon {
+  .papa {
     color: white;
     font-size: 100px;
     position: absolute;
@@ -95,4 +112,10 @@
   .fa-user:hover {
     color: #eee;
     
+  }
+
+  .cen{
+margin-top: 2%;
+margin-bottom: 2%;
+    margin-left: 48%;
   }
